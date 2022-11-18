@@ -126,8 +126,8 @@ ul li {
   border-radius: 25px;
   /* top: 0;  
   left: 0;  */
-  margin: auto;
-  /* transform: translate(-50%, -50%); */
+  /* margin: 50vh auto 0; */
+  /* transform: translateY(-10%); */
 }
 
 .box:nth-child(1)::after,
