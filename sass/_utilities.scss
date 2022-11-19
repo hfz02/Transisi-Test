@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+$primary-color: #F7F9FC;
+$secondary-color: #2FD8D8;
+$tertiary-color: #894CD6;
+
+ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 38vh;
+    height: 7vh;
+    background: #3a3f53;
+    outline: none;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    
+    &::placeholder {
+      color: #a4a6b7;
+      font-weight: 700;
+    }
+    
+    &:focus {
+      outline: none;
+      border: none;
+      color: white;
+    }
+}
+  
+.icon {
+    background: #3a3f53;
+    color: #a4a6b7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5vmax;
+    height: 7vh;
+    border-radius: 15px 0 0 15px;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+}
+
+.text {
+    p {
+      font-size: .9rem;
+    }
+}
+
+.task {
+    font-size: .75rem;
+    display: flex;
+}
+
+.approved, .inprogress {
+    background-color: #ddf5f5;
+    color: #80a5d0;
+    width: 15vh;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: .75rem;
+    margin-right: 1vh;
+    }
+
+.review {
+    background-color: #feede6;
+    color: #cf9783;
+    width: 15vh;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: .75rem;
+    margin-right: 1vh;
+}
+
+.waiting {
+    background-color: #edeef0;
+    color: #979aa3;
+    width: 15vh;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: .75rem;
+    margin-right: 1vh;
+}

@@ -1,0 +1,15 @@
+// Navbar
+
+nav {
+    position: fixed;
+    top: 2vh;
+    left: 3vh;
+    background: #3A3F53;
+    background-image: url(../assets/burger-bars.svg);
+    background-size: cover;
+    width: 4.3vh;
+    height: 4.2vh;
+    border-radius: 1vh;
+    cursor: pointer;
+    z-index: 100;
+}

@@ -1,0 +1,44 @@
+.profile {
+    display: flex;
+}
+
+.profile1 img,
+.profile2 img,
+.profile3 img {
+    width: auto;
+}
+
+.profile1 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 213, 255);
+    border-radius: 50px;
+    border: 3px solid #000;
+    z-index: 3;
+    transform: translateX(40%);
+    background-image: url("../assets/person1.svg");
+    background-size: cover;
+}
+
+.profile2 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(3, 255, 3);
+    border-radius: 50px;
+    border: 3px solid #000;
+    z-index: 2;
+    transform: translateX(10%);
+    background-image: url("../assets/person2.svg");
+    background-size: cover;
+}
+
+.profile3 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 82, 30);
+    border-radius: 50px;
+    border: 3px solid #000;
+    transform: translateX(-20%);
+    background-image: url("../assets/person3.svg");
+    background-size: cover;
+}

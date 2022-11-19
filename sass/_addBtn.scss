@@ -1,0 +1,33 @@
+@import './utilities';
+
+.add1 {
+    margin-top: .59vh;
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(197, 197, 197);
+    color: rgb(197, 197, 197);
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+  
+.add2 {
+    position: absolute;
+    bottom: 4vh;
+    right: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 15px;
+    background-color: $tertiary-color;
+    color: white;
+    font-size: 1.5rem;
+    box-shadow: 3px 8px 20px 1px rgba(45, 45, 45, 0.5);
+    cursor: pointer;
+}

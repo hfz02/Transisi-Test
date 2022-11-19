@@ -1,0 +1,44 @@
+.box {
+    width: 13vh;
+    height: 13vh;
+    border-radius: 20px;
+    margin-bottom: 1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all ease;
+  
+    img {
+      width: 13vh;
+    }
+}
+
+.box1 {
+    background-color: #F8339D;
+}
+
+.box2 {
+    background-color: #349DC8;
+}
+
+.box3 {
+    background-color: #7645C2;
+}
+
+.box4 {
+    background-color: #4F79F7;
+}
+
+.box5 {
+    background-color: #F08166;
+}
+
+.box6 {
+    background-color: #3A3F53;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}

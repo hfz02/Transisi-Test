@@ -1,0 +1,39 @@
+/* Checkbox */
+
+@import './utilities';
+
+.checkbox input {
+    position: relative;
+    margin-left: 1vh;
+    margin-right: 15px;
+    margin-top: 1.4vh;
+
+    &::before {
+      position: absolute;
+      content: "";
+      height: 3.3vh;
+      width: 3.3vh;
+      background-color: #fff;
+      border: 1px solid gray;
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+      transition: 0.3s all ease;
+    }
+    
+    &:checked::before {
+      background-color: $secondary-color;
+      border: 1px solid $secondary-color;
+    }
+    
+    &:checked::after {
+      position: absolute;
+      content: "\f00c";
+      font-family: "FontAwesome";
+      color: #fff;
+      font-size: .8rem;
+    }
+}
+  
