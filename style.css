@@ -41,8 +41,8 @@ ul li {
 .checkbox input::before {
   position: absolute;
   content: "";
-  height: 20px;
-  width: 20px;
+  height: 3.3vh;
+  width: 3.3vh;
   background-color: #fff;
   border: 1px solid gray;
   border-radius: 50%;
@@ -63,7 +63,7 @@ ul li {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #fff;
-  font-size: 12px;
+  font-size: .8rem;
 }
 
 /* End-Checkbox */
@@ -120,18 +120,9 @@ ul li {
   transition: .3s all ease;
 }
 
-.child {
-  padding: 7.2vh 7.2vh;
-  border-radius: 25px;
+.box img {
+  width: 13vh;
 }
-
-/* .child:hover:nth-child(1) {
-  border: 3px solid #F8339D;
-}
-
-.child:hover:nth-child(2) {
-  border: 3px solid #349DC8;
-} */
 
 .box1 {
   background-color: #F8339D;
@@ -288,13 +279,11 @@ ul li {
 }
 
 .right .container {
-  height: 80vh;
   width: 80%;
   display: flex;
   flex-direction: column;
   gap: 50px;
   justify-content: start;
-  /* background-color: rgb(255, 185, 177); */
 }
 
 .right .first {
@@ -307,7 +296,6 @@ ul li {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-  /* overflow: hidden; */
 }
 
 .today i {
@@ -316,10 +304,10 @@ ul li {
 }
 
 .right .third {
-  background-color: aqua;
-  transform: translateY(-10%);
-  /* height: 150vh; */
+  /* background-color: aqua; */
+  height: 90vh;
   overflow-y: auto;
+  transform: translateY(-7%);
 }
 
 .right .third::-webkit-scrollbar {
@@ -352,7 +340,7 @@ ul li {
 .right .third ul li {
   display: flex;
   justify-content: space-between;
-  gap: 0 3px;
+  gap: 0 10px;
   animation: fadeIn .35s;
   opacity: 1;
 }
@@ -369,7 +357,6 @@ ul li {
 .task {
   font-size: .75rem;
   display: flex;
-  /* background-color: #54fdfd; */
 }
 
 .approved, .inprogress {
@@ -413,33 +400,46 @@ ul li {
   display: flex;
 }
 
+.profile1 img,
+.profile2 img,
+.profile3 img {
+  width: auto;
+}
+
 .profile1 {
   width: 40px;
   height: 40px;
-  background-color: blue;
+  background-color: rgb(0, 213, 255);
   border-radius: 50px;
-  border: 3px solid #fff;
+  border: 3px solid #000;
   z-index: 3;
   transform: translateX(40%);
+  background-image: url(./assets/person1.svg);
+  background-size: cover;
 }
+
 
 .profile2 {
   width: 40px;
   height: 40px;
-  background-color: black;
+  background-color: rgb(3, 255, 3);
   border-radius: 50px;
-  border: 3px solid #fff;
+  border: 3px solid #000;
   z-index: 2;
   transform: translateX(10%);
+  background-image: url(./assets/person2.svg);
+  background-size: cover;
 }
 
 .profile3 {
   width: 40px;
   height: 40px;
-  background-color: red;
+  background-color: rgb(255, 82, 30);
   border-radius: 50px;
-  border: 3px solid #fff;
+  border: 3px solid #000;
   transform: translateX(-20%);
+  background-image: url(./assets/person3.svg);
+  background-size: cover;
 }
 
 .add1 {
@@ -479,6 +479,7 @@ ul li {
   main {
     height: 130vh;
   }
+  
   .left .container {
     height: 100%;
     width: 70%;
@@ -506,7 +507,6 @@ ul li {
   }
 
   .add1 {
-    /* margin-top: .59vh; */
     width: 20px;
     height: 20px;
     font-size: 13px;
@@ -532,6 +532,10 @@ ul li {
 
   .right {
     margin-bottom: 1vh;
+  }
+
+  .right .container {
+    width: 90%;
   }
 
   .input {
